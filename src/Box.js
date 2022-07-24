@@ -9,11 +9,11 @@ const BoxWrap = styled.div`
   } */
 `;
 
-export const Box = () => {
+export const Box = ({ user }) => {
   return (
     <BoxWrap>
       <div>
-        <h1>you</h1>
+        <h1>{user}</h1>
         <img src="https://media.istockphoto.com/photos/stone-pebble-gray-picture-id1288973456?b=1&k=20&m=1288973456&s=170667a&w=0&h=GBGgp4yrZv4ooDBws8yHF24sJ3rkEpObYsBWpVNKFT8=" />
         <h2>결과값</h2>
       </div>
