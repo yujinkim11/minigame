@@ -10,6 +10,7 @@ const BoxWrap = styled.div`
 `;
 
 export const Box = ({ user }) => {
+  console.log("props", props);
   return (
     <BoxWrap>
       <div>
