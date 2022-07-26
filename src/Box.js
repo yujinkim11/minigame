@@ -14,8 +14,8 @@ export const Box = (props) => {
   return (
     <BoxWrap>
       <div>
-        <h1>user</h1>
-        <img src="https://media.istockphoto.com/photos/stone-pebble-gray-picture-id1288973456?b=1&k=20&m=1288973456&s=170667a&w=0&h=GBGgp4yrZv4ooDBws8yHF24sJ3rkEpObYsBWpVNKFT8=" />
+        <h1>{props.title}</h1>
+        <img className="item-img" src={props.item && props.item.img} />
         <h2>결과값</h2>
       </div>
     </BoxWrap>

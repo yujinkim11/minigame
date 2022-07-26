@@ -9,7 +9,7 @@ const choice = {
   },
   scissor: {
     name: "Scissor",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDJJO2TmRnaDnTqYWMx4J0FGXw2aEKl4m9ow&usqp=CAU",
+    img: "https://pnshop.co.kr/file/product/thumbnail/1548741810752_PN%20%EC%A3%BC%EB%B0%A9%EA%B0%80%EC%9C%84_003.jpg",
   },
   paper: {
     name: "Paper",
@@ -27,11 +27,11 @@ function App() {
   return (
     <>
       <div className="mainbox">
-        <Box user="You" item={select} />
-        <Box user="Computer" />
+        <Box title="You" item={select} />
+        {/* <Box title="Computer" /> */}
       </div>
       <div className="mainbox">
-        <button onClick={() => play("scissors")}>가위</button>
+        <button onClick={() => play("scissor")}>가위</button>
         <button onClick={() => play("rock")}>바위</button>
         <button onClick={() => play("paper")}>보</button>
       </div>
