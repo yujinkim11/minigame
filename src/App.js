@@ -25,6 +25,7 @@ function App() {
     setSelect(choice[userChoice]);
 
     let computerChoice = randomChoice();
+    setComputerSelect(computerChoice);
   };
 
   const randomChoice = () => {
@@ -33,6 +34,9 @@ function App() {
     // console.log("item array", itemArray);
     let randomitem = Math.floor(Math.random() * itemArray.length);
     // console.log("랜덤값", randomitem);
+    let final = itemArray[randomitem];
+    // console.log("파이널", final);
+    return choice[final];
   };
 
   return (
