@@ -1,6 +1,18 @@
 import { Box } from "./Box";
 import "./App.css";
 import { useState } from "react";
+import styled from "styled-components";
+
+const Button = styled.button`
+  background-color: aliceblue;
+  border-radius: 5px;
+  margin-left: 30px;
+  font-size: 24px;
+  font-weight: 700;
+  :nth-child(1) {
+    margin-left: 0;
+  }
+`;
 
 const choice = {
   rock: {
@@ -71,9 +83,9 @@ function App() {
         <Box title="Computer" item={computerSelect} result={result} />
       </div>
       <div className="mainbox">
-        <button onClick={() => play("scissor")}>가위</button>
-        <button onClick={() => play("rock")}>바위</button>
-        <button onClick={() => play("paper")}>보</button>
+        <Button onClick={() => play("scissor")}>가위</Button>
+        <Button onClick={() => play("rock")}>바위</Button>
+        <Button onClick={() => play("paper")}>보</Button>
       </div>
     </>
   );
