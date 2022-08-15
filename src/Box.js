@@ -7,6 +7,7 @@ const BoxWrap = styled.div`
   img {
     width: 400px;
     height: 400px;
+    margin-left: 20px;
   }
 
   h1 {
