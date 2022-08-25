@@ -21,7 +21,7 @@ const choice = {
   },
   scissor: {
     name: "Scissor",
-    img: "https://pnshop.co.kr/file/product/thumbnail/1548741810752_PN%20%EC%A3%BC%EB%B0%A9%EA%B0%80%EC%9C%84_003.jpg",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaCAvq_3YuLukE-_PuBmayXt4hAEVuzzML_A&usqp=CAU",
   },
   paper: {
     name: "Paper",
